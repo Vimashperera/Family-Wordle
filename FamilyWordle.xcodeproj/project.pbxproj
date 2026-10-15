@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7C49E3B9CD712A4840D61F /* FamilyWordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4073C5637451A9631903A6F1 /* FamilyWordleApp.swift */; };
+		D9F51A67EFA9F5E7A02420EA /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777AE0DFB3BFA85C32EA047B /* GameModels.swift */; };
+		BAE861E67CF086D215F92A15 /* PersistenceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0EEAF5FBCEFBA6C43AE64F /* PersistenceStore.swift */; };
+		983A2DF93FF37FB72A85080A /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71911CF5571F1E2B91073E45 /* SoundPlayer.swift */; };
+		DAA2E7BFFDD6FD81FC27C1A3 /* WordBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63349A0D32DC2EBC063B396B /* WordBank.swift */; };
+		5982C5BAA65ED28229268958 /* WordScorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1C86A5D702D805BB76CE10 /* WordScorer.swift */; };
+		DBF778895E6E873562C898B3 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39CDE0C9E0BF1B051ABBFCE /* Palette.swift */; };
+		9AE8938C6DE877BBFB0C7988 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF518BB589944142B8417B7A /* GameViewModel.swift */; };
+		CD697897BAA41749DD69AA98 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB408E2D364FD9B37274B448 /* ScoreboardView.swift */; };
+		B55115192419447791D9D3FB /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C75BDE77121ADE12B3C2028 /* TileView.swift */; };
+		5CD7C247F1F7EFE440D61B26 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9740BD0C46249B15E765 /* GameView.swift */; };
+		AE1BDA8ECE77BDAAA8C3143B /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE315513AD6BF2648D2C0D /* HowToPlayView.swift */; };
+		197CE458B372CD495BD86F4B /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBBC0B117F56AED68127CA9 /* KeyboardView.swift */; };
+		890708AC03733746D4E08910 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93660A9686D36D51CA57D2C5 /* MainMenuView.swift */; };
+		E64F69ECF06634D6CD7D8047 /* PassRemoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26AA50BCDFB29166C1815FE /* PassRemoteView.swift */; };
+		9BED67CD3A1CEA17456DB368 /* PlayerSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E3D882E8CBCE275AE63BD /* PlayerSetupView.swift */; };
+		5F64D416B411CBE17F9D6DAA /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFC5D73DF12A7E171635BB /* ResultsView.swift */; };
+		162D836C7C50E6AD190F4643 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016933B202E151EF9138E7BF /* RootView.swift */; };
+		0366047E1EAD5CC5EA2D8838 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F744F6D6EBF1B44CEF76CC1 /* SettingsView.swift */; };
+		6B23AB6BAEC718EA6C039744 /* WordGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCB1F7956E7729D6ABCDC38 /* WordGridView.swift */; };
+		2D2411A895B80B698B8E2A82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04E34D445E31A2159C1BFEB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5BF48AA40CAD7891EB709FC /* FamilyWordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamilyWordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04E34D445E31A2159C1BFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4073C5637451A9631903A6F1 /* FamilyWordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyWordleApp.swift; sourceTree = "<group>"; };
+		777AE0DFB3BFA85C32EA047B /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		8C0EEAF5FBCEFBA6C43AE64F /* PersistenceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceStore.swift; sourceTree = "<group>"; };
+		71911CF5571F1E2B91073E45 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		63349A0D32DC2EBC063B396B /* WordBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBank.swift; sourceTree = "<group>"; };
+		3B1C86A5D702D805BB76CE10 /* WordScorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScorer.swift; sourceTree = "<group>"; };
+		E39CDE0C9E0BF1B051ABBFCE /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		FF518BB589944142B8417B7A /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		AB408E2D364FD9B37274B448 /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
+		7C75BDE77121ADE12B3C2028 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		9C8B9740BD0C46249B15E765 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		B0CE315513AD6BF2648D2C0D /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
+		AFBBC0B117F56AED68127CA9 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		93660A9686D36D51CA57D2C5 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		E26AA50BCDFB29166C1815FE /* PassRemoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassRemoteView.swift; sourceTree = "<group>"; };
+		019E3D882E8CBCE275AE63BD /* PlayerSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSetupView.swift; sourceTree = "<group>"; };
+		07FFC5D73DF12A7E171635BB /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		016933B202E151EF9138E7BF /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		4F744F6D6EBF1B44CEF76CC1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4FCB1F7956E7729D6ABCDC38 /* WordGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGridView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F0C0DE00000000000000F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5A0D8EE218397BD97D1E79B /* FamilyWordle */ = {
+			isa = PBXGroup;
+			children = (
+				D1D0524B025E57AFFF263442 /* App */,
+				A1C86A29E589D48EC70B6A32 /* Models */,
+				609874F33224C0C09F1FEE42 /* Services */,
+				30E55226AA05E8C3B80D9DCF /* Theme */,
+				8C82CBDAB62AC804C92AACD0 /* ViewModels */,
+				38DF21AEF4612506D6BE5CBE /* Views */,
+				C04E34D445E31A2159C1BFEB /* Assets.xcassets */,
+			);
+			path = FamilyWordle;
+			sourceTree = "<group>";
+		};
+		D1D0524B025E57AFFF263442 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4073C5637451A9631903A6F1 /* FamilyWordleApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A1C86A29E589D48EC70B6A32 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				777AE0DFB3BFA85C32EA047B /* GameModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		609874F33224C0C09F1FEE42 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8C0EEAF5FBCEFBA6C43AE64F /* PersistenceStore.swift */,
+				71911CF5571F1E2B91073E45 /* SoundPlayer.swift */,
+				63349A0D32DC2EBC063B396B /* WordBank.swift */,
+				3B1C86A5D702D805BB76CE10 /* WordScorer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		30E55226AA05E8C3B80D9DCF /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				E39CDE0C9E0BF1B051ABBFCE /* Palette.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		8C82CBDAB62AC804C92AACD0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FF518BB589944142B8417B7A /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		38DF21AEF4612506D6BE5CBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				950A2D373B2809B658DC7F2E /* Components */,
+				9C8B9740BD0C46249B15E765 /* GameView.swift */,
+				B0CE315513AD6BF2648D2C0D /* HowToPlayView.swift */,
+				AFBBC0B117F56AED68127CA9 /* KeyboardView.swift */,
+				93660A9686D36D51CA57D2C5 /* MainMenuView.swift */,
+				E26AA50BCDFB29166C1815FE /* PassRemoteView.swift */,
+				019E3D882E8CBCE275AE63BD /* PlayerSetupView.swift */,
+				07FFC5D73DF12A7E171635BB /* ResultsView.swift */,
+				016933B202E151EF9138E7BF /* RootView.swift */,
+				4F744F6D6EBF1B44CEF76CC1 /* SettingsView.swift */,
+				4FCB1F7956E7729D6ABCDC38 /* WordGridView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		950A2D373B2809B658DC7F2E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AB408E2D364FD9B37274B448 /* ScoreboardView.swift */,
+				7C75BDE77121ADE12B3C2028 /* TileView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		86024CAD1E83101D97359D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5BF48AA40CAD7891EB709FC /* FamilyWordle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD58DE7366495DB4650CFEF = {
+			isa = PBXGroup;
+			children = (
+				D5A0D8EE218397BD97D1E79B /* FamilyWordle */,
+				86024CAD1E83101D97359D73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* FamilyWordle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCBA600F950B06414C0DEBA /* Build configuration list for PBXNativeTarget "FamilyWordle" */;
+			buildPhases = (
+				F2AB5FB218DA8B84623F4557 /* Sources */,
+				55B558C7EF820E6E00E5993B /* Resources */,
+				A1F0C0DE00000000000000F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FamilyWordle;
+			productName = FamilyWordle;
+			productReference = F5BF48AA40CAD7891EB709FC /* FamilyWordle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 3B886D25E9209DFCE86603D7 /* Build configuration list for PBXProject "FamilyWordle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD58DE7366495DB4650CFEF;
+			productRefGroup = 86024CAD1E83101D97359D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* FamilyWordle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B558C7EF820E6E00E5993B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2411A895B80B698B8E2A82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2AB5FB218DA8B84623F4557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7C49E3B9CD712A4840D61F /* FamilyWordleApp.swift in Sources */,
+				D9F51A67EFA9F5E7A02420EA /* GameModels.swift in Sources */,
+				BAE861E67CF086D215F92A15 /* PersistenceStore.swift in Sources */,
+				983A2DF93FF37FB72A85080A /* SoundPlayer.swift in Sources */,
+				DAA2E7BFFDD6FD81FC27C1A3 /* WordBank.swift in Sources */,
+				5982C5BAA65ED28229268958 /* WordScorer.swift in Sources */,
+				DBF778895E6E873562C898B3 /* Palette.swift in Sources */,
+				9AE8938C6DE877BBFB0C7988 /* GameViewModel.swift in Sources */,
+				CD697897BAA41749DD69AA98 /* ScoreboardView.swift in Sources */,
+				B55115192419447791D9D3FB /* TileView.swift in Sources */,
+				5CD7C247F1F7EFE440D61B26 /* GameView.swift in Sources */,
+				AE1BDA8ECE77BDAAA8C3143B /* HowToPlayView.swift in Sources */,
+				197CE458B372CD495BD86F4B /* KeyboardView.swift in Sources */,
+				890708AC03733746D4E08910 /* MainMenuView.swift in Sources */,
+				E64F69ECF06634D6CD7D8047 /* PassRemoteView.swift in Sources */,
+				9BED67CD3A1CEA17456DB368 /* PlayerSetupView.swift in Sources */,
+				5F64D416B411CBE17F9D6DAA /* ResultsView.swift in Sources */,
+				162D836C7C50E6AD190F4643 /* RootView.swift in Sources */,
+				0366047E1EAD5CC5EA2D8838 /* SettingsView.swift in Sources */,
+				6B23AB6BAEC718EA6C039744 /* WordGridView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6143EE2941E474EB4BAD052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		36CFC301A717EE35561E9C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+								GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+								SDKROOT = appletvos;
+								SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+		6A79C94DB2EB7C79AF3592F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Family Wordle";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sliit.familywordle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Debug;
+		};
+		68AFC219BD8EB07814E31001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Family Wordle";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sliit.familywordle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 17.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B886D25E9209DFCE86603D7 /* Build configuration list for PBXProject "FamilyWordle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6143EE2941E474EB4BAD052 /* Debug */,
+				36CFC301A717EE35561E9C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCBA600F950B06414C0DEBA /* Build configuration list for PBXNativeTarget "FamilyWordle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A79C94DB2EB7C79AF3592F5 /* Debug */,
+				68AFC219BD8EB07814E31001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
