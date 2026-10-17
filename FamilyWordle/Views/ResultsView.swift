@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ResultsView: View {
     @ObservedObject var model: GameViewModel
-    var focus: FocusState<GameFocus>.Binding
+    var focus: FocusState<GameFocus?>.Binding
     var onPractice: () -> Void
     var onMenu: () -> Void
 

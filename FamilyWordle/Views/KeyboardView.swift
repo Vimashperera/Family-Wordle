@@ -7,7 +7,7 @@ struct KeyboardView: View {
     /// False during handoff and results, so the remote cannot focus a covered keyboard.
     let focusable: Bool
     let keyHeight: CGFloat
-    var focus: FocusState<GameFocus>.Binding
+    var focus: FocusState<GameFocus?>.Binding
     var onLetter: (Character) -> Void
     var onDelete: () -> Void
     var onGuess: () -> Void

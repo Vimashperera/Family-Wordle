@@ -5,7 +5,7 @@ import SwiftUI
 struct PassRemoteView: View {
     let participant: Participant
     var namespace: Namespace.ID
-    var focus: FocusState<GameFocus>.Binding
+    var focus: FocusState<GameFocus?>.Binding
     var onReady: () -> Void
     var onMenu: () -> Void
 
